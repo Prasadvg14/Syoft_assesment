@@ -1,0 +1,114 @@
+.page {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+  border: px solid lightgrey;
+  padding: 15px;
+  height: 100vh;
+}
+.left {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: rgb(13, 13, 53);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  padding: 30px;
+  border: none;
+  background-image: url("https://shorturl.at/VLp2h");
+  background-size: cover;
+}
+.heading {
+  color: aliceblue;
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: 500;
+}
+.para {
+  color: lightgray;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: monospace;
+}
+.right {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  padding-left: 80px;
+  background-color: white;
+}
+.logo {
+  height: 60px;
+  width: 80px;
+}
+.input-box {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 20px;
+}
+.terms-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.span {
+  color: indigo;
+  font-weight: 400;
+}
+.terms-inp {
+  padding: 25px;
+}
+.input {
+  padding: 5px;
+  padding-left: 10px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-top: 5px;
+}
+.red {
+  color: red;
+}
+.black {
+  color: black;
+}
+.button-box {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: indigo;
+  height: 40px;
+  width: 100%;
+  color: aliceblue;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 15px;
+  cursor: hover;
+}
+
+.signBtn {
+  border: none;
+  background-color: white;
+  color: indigo;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sign:hover {
+  cursor: pointer;
+}
